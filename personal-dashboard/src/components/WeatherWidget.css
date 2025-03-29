@@ -1,0 +1,41 @@
+/* src/components/WeatherWidget.css */
+.weather-widget {
+    /* Inherits .widget styles from App.css */
+    text-align: center; /* Center align text */
+  }
+  
+  .weather-widget.error p {
+    color: #e74c3c; /* Red color for error messages */
+    font-weight: bold;
+  }
+  
+  .weather-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center items horizontally */
+    gap: 15px; /* Space between icon and text */
+    margin-top: 15px;
+  }
+  
+  .weather-icon {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+  }
+  
+  .weather-details {
+    text-align: left; /* Align text details to the left */
+  }
+  
+  .temperature {
+    font-size: 1.8em; /* Make temperature stand out */
+    font-weight: bold;
+    margin: 0;
+    color: #2980b9;
+  }
+  
+  .description {
+    font-size: 1em;
+    margin: 0;
+    text-transform: capitalize; /* Capitalize the first letter */
+    color: #555;
+  }
